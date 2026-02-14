@@ -287,12 +287,6 @@ outputs/models/
 
 ---
 
-## 📜 License
-
-MIT License
-
----
-
 ## ✅ Conclusion
 
 This project successfully demonstrates:
