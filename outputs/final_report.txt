@@ -1,0 +1,23 @@
+
+============================================================
+GLOBAL WEATHER FORECASTING PROJECT - FINAL REPORT
+============================================================
+Date: 2026-02-14 13:13:00.119876
+
+EXECUTIVE SUMMARY
+----------------
+Analysis of 123,941 weather records from 211 countries
+reveals significant patterns in global climate. Average global temperature
+is 21.6°C.
+
+KEY FINDINGS
+-----------
+• Temperature Range: -29.8°C to 49.2°C
+• Anomaly Rate: 5.55%
+• Model Used: Moving Average (window=7)
+
+CONCLUSION
+----------
+The analysis successfully demonstrates basic forecasting techniques
+for temperature prediction.
+============================================================

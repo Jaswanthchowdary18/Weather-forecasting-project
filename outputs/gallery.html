@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weather Analysis Results</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            margin: 0;
+            padding: 20px; 
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        h1 { 
+            color: white; 
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 30px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        .container { 
+            max-width: 1400px; 
+            margin: 0 auto; 
+        }
+        .stats { 
+            background: rgba(255,255,255,0.95); 
+            padding: 25px; 
+            border-radius: 15px; 
+            margin: 20px 0 30px 0; 
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+        .stats h2 {
+            color: #333;
+            margin-top: 0;
+            border-bottom: 2px solid #667eea;
+            padding-bottom: 10px;
+        }
+        .image-grid { 
+            display: grid; 
+            grid-template-columns: repeat(auto-fit, minmax(500px, 1fr)); 
+            gap: 25px; 
+        }
+        .image-card { 
+            background: white; 
+            padding: 20px; 
+            border-radius: 15px; 
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease;
+        }
+        .image-card:hover {
+            transform: translateY(-5px);
+        }
+        .image-card img { 
+            width: 100%; 
+            height: auto; 
+            border-radius: 10px; 
+            border: 3px solid #f0f0f0;
+        }
+        .image-card h3 { 
+            margin: 0 0 15px 0; 
+            color: #333;
+            font-size: 1.2em;
+            text-align: center;
+        }
+        .footer { 
+            text-align: center; 
+            margin-top: 40px; 
+            color: white;
+            padding: 20px;
+        }
+        .badge {
+            background: #667eea;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 0.9em;
+            display: inline-block;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🌍 Global Weather Analysis Results</h1>
+        
+        <div class="stats">
+            <h2>📊 Analysis Complete!</h2>
+            <p>The following visualizations have been generated from the Global Weather dataset. 
+            Click on any image to view in full size.</p>
+            <div class="badge">PM Accelerator Mission: AI-Driven Solutions</div>
+        </div>
+        
+        <div class="image-grid">
+
+            <div class="image-card">
+                <h3>Arima Forecast</h3>
+                <img src="figures/arima_forecast.png" alt="arima_forecast.png" onclick="window.open(this.src)">
+            </div>
+        
+            <div class="image-card">
+                <h3>Climate Analysis Comprehensive</h3>
+                <img src="figures/climate_analysis_comprehensive.png" alt="climate_analysis_comprehensive.png" onclick="window.open(this.src)">
+            </div>
+        
+            <div class="image-card">
+                <h3>Correlation Heatmap</h3>
+                <img src="figures/correlation_heatmap.png" alt="correlation_heatmap.png" onclick="window.open(this.src)">
+            </div>
+        
+            <div class="image-card">
+                <h3>Dbscan Clusters</h3>
+                <img src="figures/dbscan_clusters.png" alt="dbscan_clusters.png" onclick="window.open(this.src)">
+            </div>
+        
+            <div class="image-card">
+                <h3>Environmental Impact</h3>
+                <img src="figures/environmental_impact.png" alt="environmental_impact.png" onclick="window.open(this.src)">
+            </div>
+        
+            <div class="image-card">
+                <h3>Extreme Weather</h3>
+                <img src="figures/extreme_weather.png" alt="extreme_weather.png" onclick="window.open(this.src)">
+            </div>
+        
+            <div class="image-card">
+                <h3>Feature Importance Comprehensive</h3>
+                <img src="figures/feature_importance_comprehensive.png" alt="feature_importance_comprehensive.png" onclick="window.open(this.src)">
+            </div>
+        
+            <div class="image-card">
+                <h3>Humidity Vs Temperature</h3>
+                <img src="figures/humidity_vs_temperature.png" alt="humidity_vs_temperature.png" onclick="window.open(this.src)">
+            </div>
+        
+            <div class="image-card">
+                <h3>Isolation Forest Anomalies</h3>
+                <img src="figures/isolation_forest_anomalies.png" alt="isolation_forest_anomalies.png" onclick="window.open(this.src)">
+            </div>
+        
+            <div class="image-card">
+                <h3>Lstm Results</h3>
+                <img src="figures/lstm_results.png" alt="lstm_results.png" onclick="window.open(this.src)">
+            </div>
+        
+            <div class="image-card">
+                <h3>Model Comparison</h3>
+                <img src="figures/model_comparison.png" alt="model_comparison.png" onclick="window.open(this.src)">
+            </div>
+        
+            <div class="image-card">
+                <h3>Monthly Temperature</h3>
+                <img src="figures/monthly_temperature.png" alt="monthly_temperature.png" onclick="window.open(this.src)">
+            </div>
+        
+            <div class="image-card">
+                <h3>Prophet Forecast</h3>
+                <img src="figures/prophet_forecast.png" alt="prophet_forecast.png" onclick="window.open(this.src)">
+            </div>
+        
+            <div class="image-card">
+                <h3>Spatial Clusters</h3>
+                <img src="figures/spatial_clusters.png" alt="spatial_clusters.png" onclick="window.open(this.src)">
+            </div>
+        
+            <div class="image-card">
+                <h3>Temperature Distribution</h3>
+                <img src="figures/temperature_distribution.png" alt="temperature_distribution.png" onclick="window.open(this.src)">
+            </div>
+        
+            <div class="image-card">
+                <h3>Temperature Vs Latitude</h3>
+                <img src="figures/temperature_vs_latitude.png" alt="temperature_vs_latitude.png" onclick="window.open(this.src)">
+            </div>
+        
+            <div class="image-card">
+                <h3>Top 20 Hottest Countries</h3>
+                <img src="figures/top_20_hottest_countries.png" alt="top_20_hottest_countries.png" onclick="window.open(this.src)">
+            </div>
+        
+        </div>
+        
+        <div class="footer">
+            <p>Generated by Weather Forecasting Project | 
+            <a href="#" style="color: white;">Back to Top</a></p>
+        </div>
+    </div>
+</body>
+</html>

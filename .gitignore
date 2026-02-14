@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs
+*.log
+
+# Models (optional - if too large)
+outputs/models/*.h5
+outputs/models/*.joblib
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Temp files
+temp/
+
+# Large data files (optional)
+data/*.csv
